@@ -27,6 +27,8 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
+- Configurar suas credenciais de e-mail no arquivo .env
+
 Storage Logs e Bootstrap Cache:
 
 ```bash
@@ -44,7 +46,7 @@ sudo chmod -R 775 storage/logs
 sudo chown -R www-data:www-data bootstrap/cache
 sudo chmod -R 775 bootstrap/cache
 ```
-## $\textsf{\color{#f5750e}{Iniciar o container}}$
+## Iniciar o Container Docker
 
 ```bash
 docker-compose up -d
@@ -76,8 +78,6 @@ php artisan migrate
 ```bash
 php artisan test
 ```
-
-- Configurar suas credenciais de e-mail .env
 
 ## Endpoints
 
