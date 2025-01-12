@@ -35,7 +35,7 @@
                         <td class="text-center align-middle button-container">
                             <a href="{{ route('users.edit', $user->id) }}" class="btn btn-primary">Editar</a>
                             <a href="javascript:void(0)"
-                                onclick="activeInactive('{{ route('users.destroy', $user->id) }}', 'Deletar', '{{ $user->name }}')"
+                                onclick="modalDelete('{{ route('users.destroy', $user->id) }}', 'Deletar', '{{ $user->name }}')"
                                 class="btn btn-danger">Deletar</a>
                         </td>
                     </tr>
