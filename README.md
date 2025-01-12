@@ -5,15 +5,6 @@
 Sistema de cadastro deusuários. 
 Tecnologias utilizadas: Laravel, Javascript, CSS.
 
-## Índice
-- [Instalação](#instalacao)
-- [Configuração](#configuração)
-- [Uso](#uso)
-- [Testes](#testes)
-- [Endpoints](#endpoints)
-- [Telas Sistema](#telas-sistema)
-- [Principais Funcionalidades](#principais-funcionalidades)
-
 ## Instalação
 
 Clone o repositório:
@@ -78,7 +69,7 @@ php artisan key:generate
 ```bash
 php artisan migrate
 ```
-## $\textsf{\color{#f5750e}{Testes}}$
+## Testes
 
 - Executar os testes unitários: `container`
 
@@ -88,7 +79,7 @@ php artisan test
 
 - Configurar suas credenciais de e-mail .env
 
-## $\textsf{\color{#f5750e}{Endpoints}}$
+## Endpoints
 
 1. Usuários
 
@@ -125,7 +116,7 @@ php artisan test
 - O usuário (manager) consegue visualizar todos os cadastros de usuários que ele gerenciou.
 - Um usuário comum pode ver o seu cadastro.
 
-## $\textsf{\color{#f5750e}{Telas Sistema}}$
+## Telas Sistema
 ![alt text](image.png)
 ![alt text](image-1.png)
 ![alt text](image-2.png)
@@ -144,7 +135,7 @@ php artisan test
   - Perfil do Usuário: Sistema de perfil do usuário para que os usuários possam atualizar seu nome e e-mail.
   - Exclusão de Usuários: Sistema de exclusão de usuários.
 
-4. `Filtragem e Pesquisa`
+2. `Filtragem e Pesquisa`
   - Pesquisa de Usuários: Busca pelo nome do usuário.
 
 
