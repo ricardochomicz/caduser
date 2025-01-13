@@ -32,6 +32,18 @@ DB_USERNAME=root
 DB_PASSWORD=root
 ```
 
+```bash
+composer install
+```
+
+```bash
+php artisan key:generate
+```
+
+```bash
+php artisan migrate
+```
+
 - Configurar suas credenciais de e-mail no arquivo .env
 
 ## Utilização com Docker
