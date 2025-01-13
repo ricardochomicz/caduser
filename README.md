@@ -2,7 +2,7 @@
 
 ## Sistema de cadastro de usuários
 
-Sistema de cadastro deusuários. 
+Sistema de cadastro de usuários. 
 Tecnologias utilizadas: Laravel, Javascript, CSS.
 
 ## Instalação
