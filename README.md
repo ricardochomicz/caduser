@@ -14,13 +14,18 @@ git clone https://github.com/ricardochomicz/caduser.git
 cd caduser
 ```
 
-Copie o arquivo [.env.example] para [.env] e configure suas variáveis de ambiente:
+Copie o arquivo [.env.example] para [.env]:
 
 ```bash
 cp .env.example .env
+```
 
+## Utilização Local
+- Configure as variáveis de ambiente no arquivo .env
+
+```bash
 DB_CONNECTION=mysql
-DB_HOST=caduser_db
+DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=caduser
 DB_USERNAME=root
@@ -28,6 +33,18 @@ DB_PASSWORD=root
 ```
 
 - Configurar suas credenciais de e-mail no arquivo .env
+
+## Utilização com Docker
+- Configure as variáveis de ambiente no arquivo .env
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=caduser_db
+DB_PORT=3306
+DB_DATABASE=caduser
+DB_USERNAME=root
+DB_PASSWORD=root
+```
 
 Storage Logs e Bootstrap Cache:
 
@@ -38,7 +55,6 @@ mkdir -p bootstrap/cache
 Set Permissões:
 
 ```bash
-
 sudo chown -R www-data:www-data storage
 sudo chmod -R 775 storage
 sudo chown -R www-data:www-data storage/logs
