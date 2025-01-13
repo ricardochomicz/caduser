@@ -80,7 +80,7 @@ sudo chmod -R 775 storage/logs
 sudo chown -R www-data:www-data bootstrap/cache
 sudo chmod -R 775 bootstrap/cache
 ```
-## Iniciar o Container Docker
+### Iniciar o Container Docker
 
 ```bash
 docker-compose up -d
@@ -112,6 +112,8 @@ php artisan migrate
 ```bash
 php artisan test
 ```
+
+<hr>
 
 ## Endpoints
 
