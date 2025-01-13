@@ -43,7 +43,7 @@ php artisan key:generate
 ```bash
 php artisan migrate
 ```
-
+- Executar teste
 ```bash
 php artisan test tests/Unit/UserServiceTest.php
 ```
@@ -105,7 +105,6 @@ php artisan key:generate
 ```bash
 php artisan migrate
 ```
-## Testes
 
 - Executar os testes unitários: `container`
 
@@ -148,9 +147,13 @@ php artisan test
     * email: (obrigatório) E-mail do usuário.
     * password: (obrigatório) Senha do usuário.
 
+<hr>
+
 - Quando o usuário se registra no sistema o campo manager_id recebe o valor null. Quando um usuário é cadastrado dentro do sistema ele recebe o manager_id do usuário logado. 
 - O usuário (manager) consegue visualizar todos os cadastros de usuários que ele gerenciou.
 - Um usuário comum pode ver o seu cadastro.
+
+<hr>
 
 ## Telas Sistema
 ![alt text](image.png)
@@ -160,6 +163,8 @@ php artisan test
 ![alt text](image-4.png)
 ![alt text](image-5.png)
 
+
+<hr>
 
 ## Principais Funcionalidades
 
