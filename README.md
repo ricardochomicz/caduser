@@ -44,7 +44,13 @@ php artisan key:generate
 php artisan migrate
 ```
 
+```bash
+php artisan test tests/Unit/UserServiceTest.php
+```
+
 - Configurar suas credenciais de e-mail no arquivo .env
+
+<hr>
 
 ## Utilização com Docker
 - Configure as variáveis de ambiente no arquivo .env
